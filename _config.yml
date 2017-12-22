@@ -1,0 +1,93 @@
+# Site settings
+title: MxMy Blog
+SEOTitle: 梦想梦圆的博客 | MxMy Blog
+header-img: img/home-bg.jpg
+email: dong@mengxiangmengyuan.com
+description: "关于Joomla 网站 CMS | 梦想梦圆，Web & Mobile Lover，自学的程序员，力争做个全栈工程师 | 这里是 @梦想梦圆_joomla 的个人博客，记录一些东西。"
+keyword: "Joomla, 建站, CMS, 全栈 "
+url: "https://mengxingmengyuan.com"
+baseurl: "" 
+
+
+
+# SNS settings
+RSS: false
+weibo_username: mengxiangmengyuan
+#zhihu_username:     
+github_username: mengfandong
+#twitter_username:   
+#facebook_username:  huxpro
+# linkedin_username:  firstname-lastname-idxxxx
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true        # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: hux
+
+# Netease setttings
+#netease_comment: false
+
+
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
+# Google Analytics
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: huangxuan.me
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "跬步不休 跛鳖千里"
+sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-conditionsize: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+# friends: [
+#     {
+ #        title: "乱序",
+ #        href: "http://mida.re/"
+ #    },
+# ]
